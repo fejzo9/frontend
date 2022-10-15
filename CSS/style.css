@@ -1,0 +1,657 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	
+	background-color: #f9f9f9;
+}
+
+.pre-header {
+	
+	background-color:#111618;
+	height: 68px;
+	color: white;
+	padding-top: 15px;
+}
+
+.pre-header .secundary-menu {
+	
+	list-style: none;
+}
+
+.pre-header .secundary-menu li
+{
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+
+}
+
+.pre-header .secundary-menu li a {
+	
+	color: #707374;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+
+.main-nav .main-menu 
+{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.main-nav .main-menu li
+{
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+	
+}
+
+.main-nav .main-menu li a {
+	color: #767676;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+.main-cta-btn {
+	
+	background-color: #4f33f1;
+	color: #fff !important;
+	border: 1px solid #4f33f1;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+
+.main-cta-btn:hover
+{
+	color: #4f33f1 !important;
+	background-color: transparent;
+	text-decoration: none; /*da ne bude underline ispod slova*/
+	transition: 0.9s; /*kasnjenje, da malo sporije prebaci*/
+}
+
+.main-nav img {
+	margin-top: 10px;
+}
+
+.hero-section {
+	background-image: url('../images/hero.jpg');
+	padding-top: 125px; 
+	padding-bottom: 115px;
+	background-size: cover; /*da se ne ponavlja ponov slika*/
+	/*background-position: center;*/ /*ne valja kad staivmo ovako*/
+}
+
+.hero-section h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 67px;
+	margin-bottom: 20px;
+}
+
+.hero-section p {
+	color: white;
+	font: bold;
+	font-size: 20px;
+
+}
+/*
+.hero-section a{
+	
+	background-color: #4f33f1;
+	border: 1px solid #4f33f1;
+	padding: 10px;
+	color: #fff;
+	transition: 0.4s; /*kasnjenje, da malo sporije prebaci
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10px;
+	
+	Ovo mi ni ne treba, jer sam stavio zajednicku klasu za ovaj button, i tamo sam uredio kako ce on izgledati
+}*/
+.services-section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+.services-section h3
+{
+	text-align: center;
+	color: #4c007b;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+	
+}
+.services-section h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #343434;
+	font-weight: bold;
+}
+
+.services-section p
+{
+	text-align: center;
+	color: #818181;
+	
+}
+
+.services-section .service-item{
+	
+	background-color: #1b1f20;
+	-webkit-box-shadow: 0px 0px 9px 9px rgba(0,0,0,0.65); 
+box-shadow: 0px 0 9px 9px rgba(0,0,0,0.65); /*iza nule (0), NE TREBA px da pise*/
+color: white;
+text-align: center;
+padding-bottom: 40px;
+transition: 0.6s;
+margin-top: 50px;
+}
+
+.services-section .service-item:hover {
+	
+	background-color: #4c007b;
+	cursor: pointer;
+	margin-top: -5px;
+}
+
+.services-section .service-item h4{
+
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.services-section .service-item p{
+
+color: #b7b8b8;
+}
+
+.services-section .service-item a{
+color: white;
+display: inline-block;
+border: 2px solid #fff;
+padding: 5px;
+margin: 0 auto;
+text-decoration: none;
+}
+
+.services-section .service-item a:hover{
+background-color: blue;
+	cursor: pointer;
+	margin-top: -5px;
+}
+
+.how-it-works-section {
+	text-align: center;
+	background-image: url("../images/works.jpg");
+	background-size: cover;
+	padding-top: 100px;
+	color: #fff;
+	
+}
+
+.how-it-works-section a {
+	display: block;
+	position: relative;
+	bottom: -30px;
+}
+
+.how-it-works-section h3
+{
+	text-align: center;
+	color: #1a7ffb;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+	
+}
+.how-it-works-section h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.how-it-works-section p
+{
+	text-align: center;
+	color: white;
+	
+}
+
+.customer-say-section{
+	
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.customer-say-section .testemonials{
+	background-color: rgba(0,0,0,0.5);
+	background-size: cover;
+	background-position: center;
+	height: 360px;
+	background-repeat: no-repeat;
+
+	
+}
+
+.customer-say-section .testimonial-inner
+{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	color: white;
+	padding: 20px;
+	padding-top: 300px;
+	position: relative;
+
+
+}
+
+.customer-say-section .testimonial-inner h5
+{
+
+	padding-left: 30px;
+
+}
+
+.customer-say-section .testemonials .testimonial-inner .jebiga:before {
+/*NE RADI MI OVO! Treba da se pojavi linija pored imena, ali nece*/
+	content: "";
+	width: 3px;
+	height: 55px;
+	background-color: #fff;
+	position: absolute;
+	left: -10px;
+	top: 5px;
+}
+
+.about-section{
+
+	background-image: url("../images/about.jpg");
+	background-size: cover;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
+
+}
+
+.about-section h3 {
+
+	font-size: 18px;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #a5a3a7;
+	padding-bottom: 10px;
+	
+
+}
+
+.about-section h3:before {
+
+	content: ""; /*uvijek kad stavljam ove 'pseudo' elemente, moram da stavim ovaj kontent prazan!*/
+	display: inline-block;
+	background-color: #315df7;
+	width: 10px;
+	height: 10px;
+	margin-right: 8px;
+	position: relative;
+	top: -2px;
+	
+}
+
+.about-section ul {
+	margin-left: 20px;
+}
+
+.school-section
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.school-section h3
+{
+	text-align: center;
+	color: #4c007b;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+	
+}
+.school-section h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #343434;
+	font-weight: bold;
+}
+
+.school-section p
+{
+	text-align: center;
+	color: #818181;
+	
+}
+
+.school-section .school-inner {
+
+	background-image: url('../images/school.jpg');
+	margin-top: 40px;
+
+}
+
+.school-section .school-inner .school-overlay {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;/*ove dvije komande idu zajedno, ovaj background color, da je crne boje i visina da je 100%*/
+	padding: 50px;
+	color: #fff;
+}
+
+.school-section .school-inner .school-overlay .conference-date span{
+	background-color: #2a66f7;
+	padding-left: 5px;
+	padding-right : 5px;
+	padding-bottom: 5px;
+	color: #fff;
+
+}
+
+.school-section .school-inner .school-overlay .countdown {
+	padding: 10px;
+	font-size: 42px;
+	border: 1px solid #fff;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 20px;
+}
+
+.school-section .school-inner .school-overlay h4 {
+	text-transform: uppercase;
+}
+
+.school-section .school-inner .school-overlay p {
+	color: #fff;
+}
+
+.school-section .school-inner .school-overlay .main-cta-btn{
+	margin-top: 20px;
+	display: inline-block;
+	/*ovo je sad ona kosa linija*/
+	clip-path: polygon(100% 0, 100% 60%, 91% 100%, 0 100%, 0 0);
+	border: 0;
+}
+
+.contact-section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url('../images/about.jpg');
+	color: #fff;
+	background-size: cover;
+}
+
+.contact-section .contact-container{
+	margin-top: 50px;
+}
+
+.contact-section h2, .contact-section p{
+	text-align: center;
+}
+
+.contact-section .contact-details p{
+	text-align: left;
+}
+
+.contact-section .contact-details p a{
+	color: #fff;
+}
+
+.contact-section .contact-details h3{
+	margin-bottom: 30px;
+}
+.contact-section .contact-details h4{
+	
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px dotted #7c7586;
+	padding-bottom: 10px;
+
+}
+.contact-section .contact-details h4:before
+		{
+		content: ""; /*uvijek kad stavljam ove 'pseudo' elemente, moram da stavim ovaj kontent prazan!*/
+		display: inline-block;
+		background-color: #315df7;
+		width: 10px;
+		height: 10px;
+		margin-right: 8px;
+		position: relative;
+		top: -2px;
+		}
+
+.contact-section form {
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid rgba(255, 255,255,0.5);
+	padding: 50px;
+}
+
+
+.contact-section form textarea, .contact-section form input, .contact-section form button {
+	width: 100%;
+	border: 0;
+	outline: none;
+	margin-bottom: 15px;
+	height: 40px;
+}
+
+.contact-section form textarea{
+	height: 80px;
+}
+
+.contact-section form button {
+	background-color: #1a7dfa;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.contact-section form label{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(255,255,255,0.5);
+}
+
+.pricing-section {
+
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+.pricing-section h3
+{
+	text-align: center;
+	color: #4c007b;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+	
+}
+.pricing-section h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #343434;
+	font-weight: bold;
+}
+
+.pricing-section p
+{
+	text-align: center;
+	color: #818181;
+	
+}
+
+.pricing-section .pricing-plan{
+	background-color: #1c2021;
+	color: #fff;
+	padding: 25px;
+	margin-top: 50px;
+}
+
+.pricing-section .pricing-plan:hover{
+	background-color: #3c309d;
+	cursor: pointer;
+}
+
+
+.pricing-section .pricing-plan a{
+	display: inline-block;
+}
+
+.pricing-section .pricing-plan ul{
+	list-style: none;
+}
+
+
+.pricing-section .pricing-plan ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+.pricing-section .pricing-plan .price {
+	position: relative;
+	border-top: 3px dotted #fff;
+	border-bottom: 3px dotted #fff;
+	margin-bottom: 20px;
+}
+
+.pricing-section .pricing-plan .price .main-num{
+	font-size: 60px;
+	font-style: italic;
+}
+
+.pricing-section .pricing-plan .price .sec-num{
+	position: relative; /*ovo se stavlja da mi se moglo pozicionirati gdje god hoces*/
+	top: -30px;
+}
+
+.pricing-section .pricing-plan .price .month{
+	position: relative; /*ovo se stavlja da mi se moglo pozicionirati gdje god hoces*/
+	top: -25px;
+}
+
+.profits-section {
+
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("../images/profits.jpg");
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.profits-section h2 {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.profits-section p {
+	font-size: 20px;
+	
+}
+
+.profits-section a {
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 30px;
+
+}
+
+footer {
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+footer h4 {
+	border-bottom: 1px solid dotted black;
+	color: #343434;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+
+/*ovo je ona kockica plava ispred slova*/
+footer h4::before
+{
+		content: ""; /*uvijek kad stavljam ove 'pseudo' elemente, moram da stavim ovaj kontent prazan!*/
+		display: inline-block;
+		background-color: #315df7;
+		width: 10px;
+		height: 10px;
+		margin-right: 8px;
+		position: relative;
+		top: -2px;
+		
+}
+footer ul {
+	list-style: none;
+	margin-top: 15px;
+}
+footer ul li a {
+	color: #818181;
+	
+	text-decoration: none;
+}
+
+.after-footer {
+	background-color: #111618;
+	color: blanchedalmond;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.after-footer p {
+	color: #fff;
+}
+
+.after-footer ul {
+	list-style: none;
+}
+
+.after-footer ul li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.after-footer ul li a {
+	color: #bfc0c0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
